@@ -1,0 +1,265 @@
+@font-face{
+	font-family: Filosofobold;
+	src:url(.../fuentes/Filosofobold.ttf);
+}
+
+body{
+background-color: #FFBF00;
+width: 900px;
+height: auto;
+margin: 0 auto; 
+}
+
+header{
+	width: 900px;
+	height: 200px;
+	background-color: #585858;
+	position: relative;
+}
+
+#logo{
+	width: 300px;
+	height: 150px;
+	background-color: white;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+
+#logo img{
+	position: absolute;
+	width: 250px;
+	left: 27px;
+
+}
+
+#slogan{
+	width: 350px;
+	height: 60px;
+	/*background-color: #E6E6E6;*/
+	position: absolute;
+	right: 5px;
+	bottom: 15px
+}
+
+#slogan p{
+	font-family: sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: #D7DF01;
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #FF4000;
+}
+
+nav ul {
+	width: 100%;
+	height: 50px;
+	position: center;
+	right: 0px;
+	margin: 0;
+}
+
+nav ul li {
+	list-style: none;
+	width: 135px;
+	height: 100%;
+	font-family: arial, helvetica, sans-serif;
+	background-color: #2d6d23;
+	text-align: center;
+	color: #fff;
+	margin-left:  2px; 
+	float: left;
+	line-height: 43px;
+	cursor: pointer;
+}
+
+nav ul li:first-child {
+	background-color: #203c13;
+}
+
+nav ul li:hover {
+	background-color: #75ddc0;
+	color: #666;
+	}
+
+
+main{
+	width: 100%;
+	height:500px;
+	background-color: #F3E2A9;
+	position: relative;
+}
+
+#data{
+	position: absolute;
+	width: 65%;
+}
+
+#data h1{
+	font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+	letter-spacing: 1px;
+	position: absolute;
+	left: 30px;
+
+}
+
+#data p{
+	position: absolute;
+	top: 50px;
+	left: 10px;
+}
+
+#data h2{
+    font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+	letter-spacing: 1px;
+	position: absolute;
+	top: 200px;
+	left: 30px;
+}
+
+#foto1{
+	position: absolute;
+    background-color: white;
+	width: 150px;
+	height: 150px;
+    top: 275px;
+    left: 20px; 
+}
+
+#foto1 img{
+	width: 150px;
+	height: 150px;
+}
+
+#foto2{
+	position: absolute;
+	background-color: white;
+	width: 200px;
+	height: 150px;
+	top: 275px;
+	left: 190px;
+}
+
+#foto2 img{
+	width: 200px;
+	height: 150px;
+}
+
+#foto3{
+	position: absolute;
+	background-color: white;
+	width: 200px;
+	height: 150px;
+	top: 275px;
+	left: 410px;
+
+}
+
+#foto3 img{
+	width: 200px;
+	height: 150px;
+}
+
+aside{
+	width: 250px;
+	height: 170px;
+	/*background-color: rgba(0,0,0,0.8);*/
+	position: absolute;
+	right: 25px;
+	top: 25px;
+}
+
+#placa{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 45%;
+}
+
+#placa p{
+
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	text-shadow: 20px 2px 5px black;
+
+}
+
+aside img{
+	width: 250px;
+}
+
+article{
+	width: 250px;
+	height: 170px;
+	background-color: rgba(0,0,0,0);
+	position: absolute;
+	right: 25px;
+	bottom: 150px;
+}
+
+#placa2{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 45%;
+}
+
+#placa2 p{
+
+	font-size: 20px;
+	text-align: center;
+	color: white;
+
+}
+
+article img{
+	width: 250px;
+}
+
+footer{
+	width: 100%;
+	height: 240px;
+	background-color: #151515;
+	position: relative;
+}
+
+footer ul{
+	width: 110px;
+	height: auto;
+	/*background-color: white;*/
+	position: absolute;
+	top: 20px;
+}
+
+footer ul li{
+
+	font-family: arial;
+	color: white;
+	width: 110px;
+	height: 30px;
+	border-bottom: 0.5px solid white;
+	list-style: none;
+}
+
+#loguito{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	left: 400px;
+	top: 25px;
+}
+
+#loguito img{
+	width: 100px;
+}
+
